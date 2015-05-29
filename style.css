@@ -1,10 +1,10 @@
 body {
-	background-color: #5F88B7;
-	background: url(blurry.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+  background-color: #5F88B7;
+  background: url(blurry.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -16,62 +16,62 @@ body {
 }
 
 #logo {
-	width: 172px;
-	height: 172px;
-	background: url(honestbuildings-logo-white.png);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -86px;
-	margin-left: -86px;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	cursor: pointer;
+  width: 172px;
+  height: 172px;
+  background: url(honestbuildings-logo-white.png);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -86px;
+  margin-left: -86px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
 }
 
 #share,
 #lyrics {
-	margin: 0;
-	outline: none;
-	border: none;
-	background-color: transparent;
-	font-size: 36px;
-	color: #FFF;
-	cursor: pointer; 
+  margin: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 36px;
+  color: #FFF;
+  cursor: pointer; 
 }
 
 
 #share {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 #lyrics {
-	position: absolute;
-	bottom: 0;
-	left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .lyrics {
-	display: none;
-	text-align: center;
-	color: #FFF;
+  display: none;
+  text-align: center;
+  color: #FFF;
 }
 
 /* TEXT REPLACEMENT */
 .ir {
-	border: 0 !important;
-	background-color: transparent !important;
-	background-repeat: no-repeat !important;
-	overflow: hidden !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-repeat: no-repeat !important;
+  overflow: hidden !important;
 }
 
 .ir:before {
-	content: "" !important;
-	display: block !important;
-	width: 0 !important;
-	height: 100% !important;
-	background: none !important;
+  content: "" !important;
+  display: block !important;
+  width: 0 !important;
+  height: 100% !important;
+  background: none !important;
 }
 
 /* Animation */
