@@ -11,6 +11,7 @@
 
     <title>Featurama!</title>
 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
     <!-- <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png"> -->
     <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
@@ -24,9 +25,14 @@
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="font/futurama/style.css" />
+    <link rel="stylesheet" href="Arctext/css/style.css" />
   </head>
   <body>
     <div id="play-wrapper" class="group">
+      <div class="title">
+        <p id="title-fill">FEATURAMA</p>
+        <h1 id="title-main" class="depth">FEATURAMA</h1>
+      </div>
       <center id="warped">
         <span class="w0" title="F">F</span>
         <span class="w1" title="E">E</span>
@@ -49,6 +55,8 @@
     </ul>
     <div id="mute"></div>
     <script src="jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="Arctext/js/jquery.arctext.js"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script src="app.js"></script>
   </body>
 </html>
